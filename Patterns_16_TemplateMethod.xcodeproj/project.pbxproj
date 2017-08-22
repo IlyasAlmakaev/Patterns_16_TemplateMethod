@@ -13,6 +13,9 @@
 		285713E21F4BFF05008B5A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285713E01F4BFF05008B5A4F /* Main.storyboard */; };
 		285713E41F4BFF05008B5A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285713E31F4BFF05008B5A4F /* Assets.xcassets */; };
 		285713E71F4BFF05008B5A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285713E51F4BFF05008B5A4F /* LaunchScreen.storyboard */; };
+		285713F11F4C0282008B5A4F /* AnyPhoneTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 285713F01F4C0282008B5A4F /* AnyPhoneTemplate.m */; };
+		285713F41F4C0373008B5A4F /* iPhoneMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 285713F31F4C0373008B5A4F /* iPhoneMaker.m */; };
+		285713F71F4C04ED008B5A4F /* AndroidMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 285713F61F4C04ED008B5A4F /* AndroidMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		285713E31F4BFF05008B5A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285713E61F4BFF05008B5A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285713E81F4BFF05008B5A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285713EF1F4C0282008B5A4F /* AnyPhoneTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyPhoneTemplate.h; sourceTree = "<group>"; };
+		285713F01F4C0282008B5A4F /* AnyPhoneTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnyPhoneTemplate.m; sourceTree = "<group>"; };
+		285713F21F4C0373008B5A4F /* iPhoneMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneMaker.h; sourceTree = "<group>"; };
+		285713F31F4C0373008B5A4F /* iPhoneMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneMaker.m; sourceTree = "<group>"; };
+		285713F51F4C04ED008B5A4F /* AndroidMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidMaker.h; sourceTree = "<group>"; };
+		285713F61F4C04ED008B5A4F /* AndroidMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 			children = (
 				285713DA1F4BFF05008B5A4F /* AppDelegate.h */,
 				285713DB1F4BFF05008B5A4F /* AppDelegate.m */,
+				285713EE1F4C0238008B5A4F /* Models */,
 				285713DD1F4BFF05008B5A4F /* ViewController.h */,
 				285713DE1F4BFF05008B5A4F /* ViewController.m */,
 				285713E01F4BFF05008B5A4F /* Main.storyboard */,
@@ -77,6 +87,19 @@
 				285713D81F4BFF05008B5A4F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		285713EE1F4C0238008B5A4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				285713EF1F4C0282008B5A4F /* AnyPhoneTemplate.h */,
+				285713F01F4C0282008B5A4F /* AnyPhoneTemplate.m */,
+				285713F21F4C0373008B5A4F /* iPhoneMaker.h */,
+				285713F31F4C0373008B5A4F /* iPhoneMaker.m */,
+				285713F51F4C04ED008B5A4F /* AndroidMaker.h */,
+				285713F61F4C04ED008B5A4F /* AndroidMaker.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +176,10 @@
 			files = (
 				285713DF1F4BFF05008B5A4F /* ViewController.m in Sources */,
 				285713DC1F4BFF05008B5A4F /* AppDelegate.m in Sources */,
+				285713F71F4C04ED008B5A4F /* AndroidMaker.m in Sources */,
 				285713D91F4BFF05008B5A4F /* main.m in Sources */,
+				285713F11F4C0282008B5A4F /* AnyPhoneTemplate.m in Sources */,
+				285713F41F4C0373008B5A4F /* iPhoneMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

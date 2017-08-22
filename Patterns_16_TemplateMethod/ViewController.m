@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "AndroidMaker.h"
+#import "iPhoneMaker.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    AndroidMaker *android = [[AndroidMaker alloc] init];
+    iPhoneMaker *iphone = [[iPhoneMaker alloc] init];
+    
+    [android makePhone];
+    [iphone makePhone];
 }
 
 
